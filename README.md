@@ -1,3 +1,4 @@
+```
 Project Description
 Features
 User authentication (JWT-based)
@@ -15,6 +16,7 @@ Set up environment variables
 Start the server
 Project Structure
 Contributing
+```
 To add similar information to the wellness-platform-frontend README file, we can update it with the following content:
 
 Markdown
@@ -67,7 +69,9 @@ bash
 npm run dev
 ```
 
-🗂️ Project Structure
+## 🗂️ Project Structure
+
+```plaintext
 wellness-platform-frontend/
 ├── public/              # Static files
 ├── src/
@@ -81,6 +85,7 @@ wellness-platform-frontend/
 ├── .gitignore           # Git ignore file
 ├── package.json         # Project metadata and dependencies
 ├── vite.config.js       # Vite configuration
+```
 
 
 ## React + Vite
