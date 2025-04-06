@@ -110,7 +110,7 @@ const Appointments = () => {
     try {
       const payload = appointment;
 
-      const response = await axios.post(API_ENDPOINTS.APPOINTMENT, payload); // replace with your actual endpoint
+      const response = await axios.put(`${API_ENDPOINTS.APPOINTMENT}/${appointment._id}`, payload); // replace with your actual endpoint
 
       addToast("Appointment re-scheduled successfully", "success");
       getAppointments();
@@ -263,6 +263,16 @@ const Appointments = () => {
                     <div className="flex items-center gap-2">
                       <span className="text-sm font-semibold text-gray-900">${appt.amount}</span>
                       <span className={`text-xs font-medium px-2 py-0.5 rounded-full ${appt.paymentStatus === "paid" ? "bg-green-100 text-green-800 border border-green-200" : "bg-red-100 text-red-700 border border-red-200"}`}>{"Paid"}</span>
+                    </div>
+                  </div>
+                  <hr className="border-gray-100" />
+                  <div className="flex justify-between items-center min-w-0">
+                    <span className="shrink-0 pr-2 w-1/2">Notes</span>
+                    <div className="flex items-center gap-2 min-w-0">
+                      <span className="truncate" title={appt?.notes?.text || undefined}>
+                        {appt?.notes?.text || "N/A"}
+                      </span>
+                      {appt?.notes?.text && <FontAwesomeIcon icon={faCircleInfo} title={appt.notes.text} className="shrink-0 text-gray-500 hover:text-gray-700 cursor-pointer" />}
                     </div>
                   </div>
                   {appt.status === "scheduled" && appt.join_url && (
