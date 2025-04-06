@@ -68,7 +68,6 @@ npm run dev
 ```
 
 🗂️ Project Structure
-plaintext
 wellness-platform-frontend/
 ├── public/              # Static files
 ├── src/
