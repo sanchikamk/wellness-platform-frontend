@@ -215,7 +215,7 @@ const BookAppointment = () => {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-xl mb-1 font-semibold">{councellor?.name}</p>
+                  <p className="text-xl mb-1 font-semibold">Dr. {councellor?.name}</p>
                   <p className="text-gray-400 relative right-2">{formatTitleCase(councellor?.specialization)}</p>
                 </div>
               </div>

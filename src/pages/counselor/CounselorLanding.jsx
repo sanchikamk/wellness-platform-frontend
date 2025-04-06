@@ -307,7 +307,7 @@ const Appointments = () => {
                     <span className="text-sm text-gray-600">Amount</span>
                     <div className="flex items-center gap-2">
                       <span className="text-sm font-semibold text-gray-900">${appt.amount}</span>
-                      <span className={`text-xs font-medium px-2 py-0.5 rounded-full ${appt.paymentStatus === "paid" ? "bg-green-100 text-green-800 border border-green-200" : "bg-red-100 text-red-700 border border-red-200"}`}>{"Paid"}</span>
+                      <span className={`text-xs font-medium px-2 py-0.5 rounded-full ${appt.paymentStatus === "paid" ? "bg-green-100 text-green-800 border border-green-200" : "bg-red-100 text-red-700 border border-red-200"}`}>{formatTitleCase(appt.paymentStatus)}</span>
                     </div>
                   </div>
                   <hr className="border-gray-100" />
