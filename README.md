@@ -1,5 +1,5 @@
-```
-Project Description
+## Table of Contents
+- Project Description
 Features
 User authentication (JWT-based)
 Counselor profile management
@@ -16,7 +16,7 @@ Set up environment variables
 Start the server
 Project Structure
 Contributing
-```
+
 To add similar information to the wellness-platform-frontend README file, we can update it with the following content:
 
 Markdown
