@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  /* font-size: 1em; */
+  font-weight: 500;
+  font-family: inherit;
+  /* background-color: #1a1a1a; */
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.inter-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f2937; /* Equivalent to text-gray-900 */
+  margin-bottom: 0.25rem; /* Equivalent to mb-1 */
+  line-height: 1.25; /* Equivalent to leading-tight */
+  font-family: InterVariable, system-ui, sans-serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  font-variation-settings: normal;
+}
+
+
