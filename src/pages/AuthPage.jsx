@@ -14,7 +14,7 @@ const AuthPage = () => {
     email: "",
     password: "",
     role: "client",
-    specialization: "mental Health",
+    specialization: "mental health",
     experience: "",
   });
   const [errors, setErrors] = useState({});
