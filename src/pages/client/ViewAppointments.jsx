@@ -5,6 +5,8 @@ import { API_ENDPOINTS } from "../../config/config";
 import { useAuth } from "../../context/AuthContext";
 import { formatTitleCase } from "../../utils/commonUtil";
 import { UpdateDialog } from "../../components/UpdateDialog";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 
 const Appointments = () => {
   const [appointments, setAppointments] = useState([]);

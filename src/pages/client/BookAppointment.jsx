@@ -151,7 +151,7 @@ const BookAppointment = () => {
         setTimeout(() => {
           addToast("Appointment booked successfully!", "success");
           navigateTo("/appointments");
-        }, 2000);
+        }, 1000);
       }
       // Optional: Toast and navigation
       return response.data;
