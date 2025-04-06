@@ -28,8 +28,8 @@ This project is the frontend part of the Wellness Platform, an online counseling
 
 - 🏠 User-friendly interface for clients and counselors
 - 🗓️ Appointment scheduling and management
-- 💬 Real-time chat and video sessions
-- 🔔 Notifications for appointment reminders and updates
+- 💬 Real-time video sessions
+- 🔔 Notifications for appointment reminders and updates(Email and Zoom)
 - 📊 Dashboard for counselors to manage their profiles and sessions
 
 ---
@@ -65,6 +65,8 @@ VITE_STRIPE_PUBLIC_KEY=your_stripe_public_key
 4. Start the Development Server
 bash
 npm run dev
+```
+
 🗂️ Project Structure
 plaintext
 wellness-platform-frontend/
