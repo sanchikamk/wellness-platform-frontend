@@ -1,4 +1,5 @@
-export const BASE_API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000/api";
+export const BASE_API_URL = import.meta.env.VITE_API_URL || "https://wellness-platform-backend.onrender.com/";
+export const BASE_API_URL1 = import.meta.env.VITE_API_URL || "// http://localhost:3000/api";
 
 export const API_ENDPOINTS = {
   LOGIN: `${BASE_API_URL}/auth/login`,
