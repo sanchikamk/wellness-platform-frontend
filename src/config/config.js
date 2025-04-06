@@ -5,6 +5,7 @@ export const API_ENDPOINTS = {
   REGISTER: `${BASE_API_URL}/auth/register`,
   GET_COUNCELORS: `${BASE_API_URL}/councelors/getCouncelors`,
   GET_APPOINTMENTS_BY_CLIENT_ID: `${BASE_API_URL}/appointments/client`,
+  GET_APPOINTMENTS_BY_COUNCSELLOR_ID: `${BASE_API_URL}/appointments/counselor`,
   DELETE_APPOINTMENT: `${BASE_API_URL}/appointments`,
   CREATE_PAYMENT_INTENT: `${BASE_API_URL}/stripe/create-payment-intent`,
   APPOINTMENT: `${BASE_API_URL}/appointments`,
